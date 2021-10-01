@@ -124,6 +124,14 @@ plt.ylabel('observed value')
 plt.title('Multiple Box Plot : Vertical Version')
 plt.show()
 ```
+## Conclusion
+Data visualization is a key aspect of statistics and analytics. It is clear that the field is rich in potential applications. Data visualization can get very detailed and complicated, but it can also be simple and easy. We briefly went over the basics here, but you can always go out and learn more yourself. There are tons of things to learn, and the field of data visualization is constantly growing and expanding. 
 
+Some key things to remember are: 
+  - You have to import matplotlib.pyplot
+  - The type of chart you want to use is specified in the beginning of the code
+  - Titles and labels are very important in data visualization
+
+Now go out there and create some amazing graphics and visualizations! Don't forget to come back and share what you have done or comment things you have learned. 
 
 
