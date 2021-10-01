@@ -85,3 +85,20 @@ plt.xlabel('variable X')
 plt.ylabel('count')
 plt.show()
 ```
+You can also add text to your visualization. Such text could include a description of what the chart is showing. It could be the mean or standard deviation. And this is all very simple and easy to do. It is just one line of code (text = ''). This will be easier to understand in the context of the code below. 
+```python
+myList = [1,2,2,3,3,3,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,7,7,7,7,7,8,8,8,9,9,10]
+plt.hist(myList)
+
+text = 'This is an example of text' + '\n'
+text += 'you can add.' + '\n'
+# plt.text(horizontal position, vertical position, text)
+# vertical and horizontal positions are percents on decimal form from 0 to 1
+# vertical=0 starts at the far left; higher numbers push the text right
+# horizontal=0 starts at the bottom; higher  numbers push the text up 
+plt.text(0.6, 0.7, text, fontsize=10, transform=plt.gcf().transFigure)
+plt.title('Dummy Data to Demonstrate Histograms')
+plt.xlabel('variable X')
+plt.ylabel('count')
+plt.show()
+```
