@@ -71,7 +71,20 @@ plt.show()
 <!--- ADD THE CHART --->
 
 Next, let's work with scatter plots. Scatter plots are a great way to show relationships between multiple variables, typically numeric variables. These plots are a wonderful way to see patterns in the data. You can assign the variables to color, size, shape. All of which help you see the relationships between the variables. 
+```python
+x = [5,7,8,7,2,17,2,9,4,11,12,9,6]
+y = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+plt.scatter(x, y, marker='x');
+```
+<!--- ADD THE CHART --->
+Histograms are very useful for viewing the distribution of data points. Each bar represents the frequency of smaples for each category. We can identify what type of distribution is being followed, and perform the correct tests and analyses. 
+As you can probably see, the plots follow very similar code. The syntax is essentially the same, just with a few minor tweaks. The main difference is at the beginning when you pick what type of graph you want - plt.(insert type of graph).
+```python
+myList = [1,2,2,3,3,3,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,7,7,7,7,7,8,8,8,9,9,10]
+plt.hist(myList)
 
-
-
-
+plt.title('Dummy Data to Demonstrate Histograms')
+plt.xlabel('variable X')
+plt.ylabel('count')
+plt.show()
+```
