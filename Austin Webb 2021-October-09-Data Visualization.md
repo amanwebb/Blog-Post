@@ -49,8 +49,10 @@ from matplotlib import pyplot as plt
 plt.plot([1,2,3],[1,2,3])
 plt.show()
 ```
-<!--- ADD THE CHART --->
-Graph 1.png
+
+![Line Chart](https://github.com/amanwebb/Blog-Post/blob/a7dfbe4552ad3cd7e0946efed5bcfa7c8d99ca03/Graph%201.png)
+
+
 You can easily add a title, labels, colors, legends, etc. You just use the alias followed by what you want to add. This is similar to all the charts and graphs, so we will just show this once. 
 ```python
 # lines
@@ -67,7 +69,7 @@ plt.legend()
 # show the plot
 plt.show()
 ```
-<!--- ADD THE CHART --->
+![Line Chart 2](https://github.com/amanwebb/Blog-Post/blob/a7dfbe4552ad3cd7e0946efed5bcfa7c8d99ca03/Graph%202.png)
 
 ## Scatter Plots
 
@@ -77,7 +79,7 @@ x = [5,7,8,7,2,17,2,9,4,11,12,9,6]
 y = [99,86,87,88,111,86,103,87,94,78,77,85,86]
 plt.scatter(x, y, marker='x');
 ```
-<!--- ADD THE CHART --->
+![Scatter Plot](https://github.com/amanwebb/Blog-Post/blob/a7dfbe4552ad3cd7e0946efed5bcfa7c8d99ca03/Graph%203.png)
 
 ## Histograms
 
@@ -93,6 +95,8 @@ plt.xlabel('variable X')
 plt.ylabel('count')
 plt.show()
 ```
+![Histogram](https://github.com/amanwebb/Blog-Post/blob/a7dfbe4552ad3cd7e0946efed5bcfa7c8d99ca03/Graph%204.png)
+
 You can also add text to your visualization. Such text could include a description of what the chart is showing. It could be the mean or standard deviation. And this is all very simple and easy to do. It is just one line of code (text = ''). This will be easier to understand in the context of the code below. 
 ```python
 myList = [1,2,2,3,3,3,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,7,7,7,7,7,8,8,8,9,9,10]
@@ -110,6 +114,8 @@ plt.xlabel('variable X')
 plt.ylabel('count')
 plt.show()
 ```
+![Histogram 2](https://github.com/amanwebb/Blog-Post/blob/a7dfbe4552ad3cd7e0946efed5bcfa7c8d99ca03/Graph%205.png)
+
 ## Box Plots
 
 Box plots are great for getting more information about the variables than you can get from histograms. More information such as standard deviation, median, mean, and outliers. Box plots are a fantastic way of seeing the statistics within your data. The bottom and top of the solid-lined box are always the first and third quartiles (i.e 25% and 75% of the data), and the band inside the box is always the second quartile (the median). The whiskers (i.e the dashed lines with the bars on the end) extend from the box to show the range of the data.
@@ -125,6 +131,9 @@ plt.ylabel('observed value')
 plt.title('Multiple Box Plot : Vertical Version')
 plt.show()
 ```
+
+![Boxplots](https://github.com/amanwebb/Blog-Post/blob/a7dfbe4552ad3cd7e0946efed5bcfa7c8d99ca03/Graph%206.png)
+
 ## Conclusion
 Data visualization is a key aspect of statistics and analytics. It is clear that the field is rich in potential applications. Data visualization can get very detailed and complicated, but it can also be simple and easy. We briefly went over the basics here, but you can always go out and learn more yourself. There are tons of things to learn, and the field of data visualization is constantly growing and expanding. 
 
