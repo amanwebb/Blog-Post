@@ -50,7 +50,7 @@ plt.plot([1,2,3],[1,2,3])
 plt.show()
 ```
 <!--- ADD THE CHART --->
-(/images/Graph 1.png)
+Graph 1.png
 You can easily add a title, labels, colors, legends, etc. You just use the alias followed by what you want to add. This is similar to all the charts and graphs, so we will just show this once. 
 ```python
 # lines
