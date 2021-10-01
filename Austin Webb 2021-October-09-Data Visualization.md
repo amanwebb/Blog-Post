@@ -28,3 +28,50 @@ There are multiple ways to go about visualizing your data. One of the easiest wa
 
 ## Plots, Charts, and Graphs
 
+So, what are all the ways you can visualize your data? You can use: scatter plots, line plots, histograms, and box plots, just to name a few. The type of visualization you use really depends on your data. Is your data quantitative? Qualitative? Categorical? Continuous? There are a few things to consider when deciding on the best graph to use. 
+
+<!--- ADD AN IMAGE OF DIFFERENT CHARTS HERE --->
+
+Let's take a look at a few of these different charts, and the code used to produce them. To start, we should add the matplotlib library with the following code: 
+
+```python
+import matplotlib.pyplot as plt
+```
+
+You can add this at the top of your code. We are importing it using the alias 'plt'. We will call this library later by using the alias. 
+
+First, we will start with something simple - line charts. We will just put random numbers in as our data points. Below you will find the syntax you need. It should be noted that you only have to import the library once. I will show it again, that way you can see how it looks all together. 
+
+```python
+from matplotlib import pyplot as plt
+plt.plot([1,2,3],[1,2,3])
+plt.show()
+```
+<!--- ADD THE CHART --->
+You can easily add a title, labels, colors, legends, etc. You just use the alias followed by what you want to add. This is similar to all the charts and graphs, so we will just show this once. 
+```python
+# lines
+plt.plot([1,2,3],[1,2,3], label = 'Line 1', color = 'g')
+plt.plot([1,2,3],[2,3,4], label = 'Line 2', color = 'blue')
+plt.plot([1,2,3],[3,4,5], label = 'Line 3', color = '#ff0000')
+        
+# labels
+plt.xlabel('X axis')
+plt.ylabel('Y axis')
+       
+# title
+plt.title('Title')
+       
+# legend
+plt.legend()
+       
+# show the plot
+plt.show()
+```
+<!--- ADD THE CHART --->
+
+Next, let's work with scatter plots. Scatter plots are a great way to show relationships between multiple variables, typically numeric variables. These plots are a wonderful way to see patterns in the data. You can assign the variables to color, size, shape. All of which help you see the relationships between the variables. 
+
+
+
+
