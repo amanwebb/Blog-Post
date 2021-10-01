@@ -109,3 +109,21 @@ plt.xlabel('variable X')
 plt.ylabel('count')
 plt.show()
 ```
+## Box Plots
+
+Box plots are great for getting more information about the variables than you can get from histograms. More information such as standard deviation, median, mean, and outliers. Box plots are a fantastic way of seeing the statistics within your data. The bottom and top of the solid-lined box are always the first and third quartiles (i.e 25% and 75% of the data), and the band inside the box is always the second quartile (the median). The whiskers (i.e the dashed lines with the bars on the end) extend from the box to show the range of the data.
+```python
+# This first section just helps us create some random data
+np.random.seed(562201)
+all_data = [np.random.normal(0, std, size=100) for std in range(1, 4)]
+labels = ['x1', 'x2', 'x3']
+
+#MultipleBoxplot
+plt.boxplot(all_data, vert=True, patch_artist=True, labels=labels) 
+plt.ylabel('observed value')
+plt.title('Multiple Box Plot : Vertical Version')
+plt.show()
+```
+
+
+
