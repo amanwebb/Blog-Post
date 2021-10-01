@@ -54,17 +54,13 @@ You can easily add a title, labels, colors, legends, etc. You just use the alias
 plt.plot([1,2,3],[1,2,3], label = 'Line 1', color = 'g')
 plt.plot([1,2,3],[2,3,4], label = 'Line 2', color = 'blue')
 plt.plot([1,2,3],[3,4,5], label = 'Line 3', color = '#ff0000')
-        
 # labels
 plt.xlabel('X axis')
-plt.ylabel('Y axis')
-       
+plt.ylabel('Y axis')       
 # title
-plt.title('Title')
-       
+plt.title('Title')       
 # legend
-plt.legend()
-       
+plt.legend()       
 # show the plot
 plt.show()
 ```
@@ -78,6 +74,7 @@ plt.scatter(x, y, marker='x');
 ```
 <!--- ADD THE CHART --->
 Histograms are very useful for viewing the distribution of data points. Each bar represents the frequency of smaples for each category. We can identify what type of distribution is being followed, and perform the correct tests and analyses. 
+
 As you can probably see, the plots follow very similar code. The syntax is essentially the same, just with a few minor tweaks. The main difference is at the beginning when you pick what type of graph you want - plt.(insert type of graph).
 ```python
 myList = [1,2,2,3,3,3,4,4,4,4,4,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,7,7,7,7,7,8,8,8,9,9,10]
