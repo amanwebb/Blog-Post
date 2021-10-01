@@ -40,6 +40,8 @@ import matplotlib.pyplot as plt
 
 You can add this at the top of your code. We are importing it using the alias 'plt'. We will call this library later by using the alias. 
 
+## Line Chart
+
 First, we will start with something simple - line charts. We will just put random numbers in as our data points. Below you will find the syntax you need. It should be noted that you only have to import the library once. I will show it again, that way you can see how it looks all together. 
 
 ```python
@@ -66,6 +68,8 @@ plt.show()
 ```
 <!--- ADD THE CHART --->
 
+## Scatter Plots
+
 Next, let's work with scatter plots. Scatter plots are a great way to show relationships between multiple variables, typically numeric variables. These plots are a wonderful way to see patterns in the data. You can assign the variables to color, size, shape. All of which help you see the relationships between the variables. 
 ```python
 x = [5,7,8,7,2,17,2,9,4,11,12,9,6]
@@ -73,6 +77,9 @@ y = [99,86,87,88,111,86,103,87,94,78,77,85,86]
 plt.scatter(x, y, marker='x');
 ```
 <!--- ADD THE CHART --->
+
+## Histograms
+
 Histograms are very useful for viewing the distribution of data points. Each bar represents the frequency of smaples for each category. We can identify what type of distribution is being followed, and perform the correct tests and analyses. 
 
 As you can probably see, the plots follow very similar code. The syntax is essentially the same, just with a few minor tweaks. The main difference is at the beginning when you pick what type of graph you want - plt.(insert type of graph).
