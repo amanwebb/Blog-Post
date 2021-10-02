@@ -3,7 +3,7 @@ title: How to be a Data Viz Rockstar
 layout: post
 author: amanwebb
 post-image: ![Title image](https://github.com/amanwebb/Blog-Post/blob/eacc50751eac3cbacf044fe86d695f4152be3b26/Title%20Image.jpg)
-description: A post that teaches all, beginners and professionals alike, how to be an expert in data visualization. It will teach you about charts and graphs. How to make them look pretty and presentable. This blog will educate you in a simple way, such that even novices will be able to understand.
+description: A post that teaches all, beginners and professionals alike, how to be an expert in data visualization. It will teach you about charts and graphs. How to make them look pretty and presentable. 
 tags: 
   visualization
   python
