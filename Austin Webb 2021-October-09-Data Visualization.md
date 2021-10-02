@@ -2,7 +2,7 @@
 title: How to be a Data Viz Rockstar 
 layout: post
 author: amanwebb
-post-image: 
+post-image: ![Title image](https://github.com/amanwebb/Blog-Post/blob/eacc50751eac3cbacf044fe86d695f4152be3b26/Title%20Image.jpg)
 description: A post that teaches all, beginners and professionals alike, how to be an expert in data visualization. It will teach you about charts and graphs. How to make them look pretty and presentable. This blog will educate you in a simple way, such that even novices will be able to understand.
 tags: 
   visualization
@@ -30,7 +30,7 @@ There are multiple ways to go about visualizing your data. One of the easiest wa
 
 So, what are all the ways you can visualize your data? You can use: scatter plots, line plots, histograms, and box plots, just to name a few. The type of visualization you use really depends on your data. Is your data quantitative? Qualitative? Categorical? Continuous? There are a few things to consider when deciding on the best graph to use. 
 
-<!--- ADD AN IMAGE OF DIFFERENT CHARTS HERE --->
+![Line Chart](https://github.com/amanwebb/Blog-Post/blob/e1fac41b7ee25af6c37c4a5d09251668349a3eff/Lots%20of%20charts.png)
 
 Let's take a look at a few of these different charts, and the code used to produce them. To start, we should add the matplotlib library with the following code: 
 
